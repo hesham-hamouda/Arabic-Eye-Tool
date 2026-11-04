@@ -1,0 +1,13 @@
+# Arabic Eye Tool — local Arabic screen reader (Rich TUI, no Qt).
+Pillow==11.3.0
+pytesseract==0.3.13
+arabic-reshaper==3.0.0
+python-bidi==0.6.7
+# Primary OCR: indra-ocr 1.1.2 (76MB CPU, Arabic RTL) — Tesseract fallback kept.
+indra-ocr==1.1.2
+numpy==1.26.4
+# External engine fallback (already present, not a pip package):
+# Tesseract-OCR 5.5 with tessdata ara+eng
+# Fast capture + chat TUI (approved 2026-11-04).
+mss==10.2.0
+rich==14.2.0
